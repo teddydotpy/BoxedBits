@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono&display=swap');
+
+@media (max-width: 767px){
+  body {
+    margin: 0;
+    background: #ffffff;
+    color: #d49bd0;
+    font-weight: light;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 10% ;
+    z-index: 1;
+  }
+
+  ul{
+    display: block;
+    width: 90%;
+    font-size: 80%;
+  }
+
+  ul a {
+    color: #d49bd0;
+    text-decoration: none;
+  }
+
+  .socDist {
+    width: 100%;
+    padding-left: 12%;
+  }
+
+  .nav {
+    display: inline;
+    text-decoration: none;
+    padding: 3%;
+  }
+
+  .lis-item{
+    text-decoration: none;
+    color: #999999 ;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .lis-item a{
+    padding: 5%;
+  }
+
+  label {
+    position: absolute;
+    right: 0;
+  }
+  
+  input {
+    display: none;
+    z-index: 5;
+  }
+  
+  input:checked ~ label {
+    right: 0;
+  }
+  
+  .burger {
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 5%;
+    z-index: 5;
+  }
+  
+  .burger g {
+    stroke: #ffffff;
+    -webkit-transition: stroke 0.25s ease-in-out;
+    transition: stroke 0.25s ease-in-out;
+  }
+  
+  input:checked ~ label .burger {
+    opacity: 0;
+  }
+  
+  .close {
+    position: relative;
+    padding-top: 20%;
+    opacity: 0;
+  }
+  
+  .close g {
+    stroke: #ffffff;
+    -webkit-transition: stroke 0.25s ease-in-out;
+    transition: stroke 0.25s ease-in-out;
+  }
+  
+  .close line {
+    -webkit-transform-origin: 0%;
+            transform-origin: 0%;
+  }
+  
+  .close g {
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+  }
+  
+  input:checked ~ label .close {
+    opacity: 1;
+    z-index: 5;
+  }
+  
+  .Menu-thing {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000d07;
+    -webkit-transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Roboto Mono' ,Arial, Helvetica, sans-serif;
+    right: 200%;
+    z-index: 5;
+  }
+  
+  input:checked ~ .Menu-thing {
+    Right: 20%;
+  }
+  
+  .Menu-thing li {
+    -webkit-transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+ 
+/* We try */
+
+
+  .footer {
+    width: 100%;
+    color:#808080; 
+    position: fixed;
+    float: none;
+    padding: 1.5%;
+    bottom: 0 ;
+  }
+
+}
+@media (min-width: 768px){
+    body {
+      padding-left: 20%;
+      background: #ffffff;
+      font-weight: light;
+      font-family: 'Roboto Mono', monospace;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+    }
+
+    .Menu-thing {
+      list-style: none;
+      margin: 0;
+      height: 100%;
+      width: 20%;
+      position: absolute;
+      top: 0;
+      left: -4%;
+      padding: 3%;
+      box-shadow: -3px 1px 8px rgba(2,2,2,.5);
+     }
+
+    ul a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      left: 0;
+      margin: auto;
+      text-decoration: none;
+    }
+
+    ul a:hover {
+      box-shadow: -3px 1px 8px rgba(2,2,2,.5);
+    }
+
+    .nav {
+      display: inline;
+      text-decoration: none;
+      padding: 3%;
+    }
+    
+    .lis-item{
+      text-decoration: none;
+      color: #999999 ;
+      padding: 2%;
+    }
+    
+    .lis-item a{
+      padding: 5%;
+    }
+
+    .footer {
+      width: 79%;  
+      background-color: #ffffff;
+      color:#d49bd0; 
+      position: fixed;
+      left: 22%;
+      float: none;
+      bottom: 0 ;
+    }
+
+    label {
+      position: fixed;
+      margin: 0;
+    }
+    #test {
+      display: none;
+      position: fixed;
+      margin: 0;
+    }
+
+
+}
