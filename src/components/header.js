@@ -13,13 +13,18 @@ const Header = () => (
     }}>
         <li className='lis-item'>
             <Link to='/' >
-                home
+                Home
             </Link>
         </li>
 
         <li className='lis-item'>
             <Link to='/about'>
-                about
+                About
+            </Link>
+        </li>
+        <li className='lis-item'>
+            <Link to='/pictures'>
+                Pictures
             </Link>
         </li>
 
