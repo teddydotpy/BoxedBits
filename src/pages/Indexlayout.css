@@ -1,21 +1,33 @@
 
 @media (min-width: 768px){
-    img {
-        width: 45%;
-        height: 30%;
-        margin: 1%;
 
+    img{
+        width: 100%;
+        height: 100%;
     }
 }
 
 @media (max-width: 767px){
-    img {
-        width: 100%;
-        height: 50%;
-        margin: 2%;
+    @keyframes word-jiggle {
+        0%{padding-bottom: 10%;}
+      }
+      
+    .title-index{
+        animation-name: word-jiggle;
+        animation-duration: 2s;
+    }
+    .magine {
+        margin-top: 15%;
     }
 
-    .magine {
-        margin-top: 10%;
+    .main-tit{
+        margin-top: 20%;
     }
+
+    img{
+        margin: 2%;
+        width: 100%;
+        height: 100%;
+    }
+
 }

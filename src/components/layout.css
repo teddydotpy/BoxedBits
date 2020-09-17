@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Old+Standard+TT&display=swap');
 @media (max-width: 767px){
   body {
     margin: 0;
     background: #ffffff;
     color: #d49bd0;
     font-weight: light;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Old Standard TT', serif;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,18 +22,21 @@
   ul a {
     color: #d49bd0;
     text-decoration: none;
+
   }
 
   .socDist {
     width: 100%;
     padding-right: 1%;
-    padding-bottom: 80%;
+    padding-bottom: 2%;
+    animation-name: word-opac;
+    animation-duration: 4s;
   }
 
   .nav {
     display: inline;
     text-decoration: none;
-    padding: 4%;
+    padding: 2%;
 
   }
 
@@ -46,7 +48,7 @@
   }
   
   .lis-item a{
-    padding: 5%;
+    padding: 2%;
   }
 
   label {
@@ -101,7 +103,7 @@
   .close g {
     -webkit-transform: rotateZ(45deg);
             transform: rotateZ(45deg);
-    -webkit-transform-origin: 50%;
+    -webkit-transform-origin: 0%;
             transform-origin: 50%;
   }
   
@@ -123,24 +125,41 @@
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-    -webkit-transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 250%;
+    -webkit-transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 290%;
     font-weight: bold;
-    font-family: 'Roboto Mono' ,Arial, Helvetica, sans-serif;
+    font-family: 'Dancing Script', cursive;
     right: 200%;
     z-index: 4;
   }
   
   input:checked ~ .Menu-thing {
-    Right: 5%;
+    Right: 2%;
   }
-  
+
+  @keyframes word-opac{
+    0%   {opacity: 0%;
+           font-size: 80%;           }
+    50%  {opacity: 50%;}
+    100% {opacity: 100%; }
+  }
+
+
   .Menu-thing li {
-    -webkit-transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-name: word-opac;
+    animation-duration: 1s;
+    font-size: 150%;
+  }
+
+  .Menu-thing h1{
+    color: grey;
+    animation-name: word-opac;
+    animation-duration: 4s;
+  }
+
+  .Menu-thing ul{
+    padding-top: 10%;
   }
  
 /* We try */
@@ -156,6 +175,13 @@
     bottom: 0 ;
   }
 
+  .logo {
+    width: 12%;
+    height: 12%;
+    position: absolute;
+    padding: 2%;
+}
+
 }
 @media (min-width: 768px){
     body {
@@ -163,11 +189,22 @@
       background: #ffffff;
       color: #d49bd0;
       font-weight: light;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Old Standard TT', serif;
       height: 100%;
       background-repeat: no-repeat;
       background-attachment: fixed;
       margin: 0;
+    }
+
+    .logo {
+      width: 10%;
+      height: 10%;
+      padding-left: 5%;
+      padding-top: 2%;
+  }
+
+    .brand-name{
+      display: none;
     }
 
     .Menu-thing {
@@ -179,7 +216,7 @@
       top: 0;
       left: -4%;
       padding: 3%;
-      box-shadow: -3px 1px 8px rgba(2,2,2,.5);
+      box-shadow: 3px -10px 8px rgba(2,2,2,.5);
      }
 
     ul a {

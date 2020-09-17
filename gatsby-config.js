@@ -9,8 +9,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `product-images`,
-        path: `${__dirname}/src/product-images`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
+    }, 
+  },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `Spring2020`,
+        path: `${__dirname}/src/Spring2020`,
       },
     },
     `gatsby-transformer-sharp`,

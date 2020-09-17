@@ -5,6 +5,7 @@ import Btnt from './button'
 import "./layout.css"
 
 const Header = () => (
+    
     <>
     <Btnt />
     <div className='Menu-thing'>
@@ -23,13 +24,26 @@ const Header = () => (
             </Link>
         </li>
         <li className='lis-item'>
-            <Link to='/pictures'>
-                Pictures
+            <Link to='/contact'>
+                Contact us
+            </Link>
+        </li>
+        <li className='lis-item'>
+            <Link to='/Spring2020'>
+                Spring Range <br></br> 2020
+            </Link>
+        </li>
+        <li className='lis-item'>
+            <Link to='/Archives'>
+                Archives
             </Link>
         </li>
 
     </ul> 
     <div align='center' className='socDist'>
+    <h1 class="brand-name">
+            BoxedBits
+    </h1>
     <Socials />
     </div>
 
