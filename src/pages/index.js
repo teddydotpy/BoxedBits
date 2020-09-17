@@ -5,6 +5,8 @@ import './Indexlayout.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import './splide-default.css'
 
+
+
 import img from '../Spring2020/d53faed5-3224-4cae-a963-786f6c7b579f.jpg'
 import img2 from '../Spring2020/e637a836-8871-4c7b-9305-b1f3b110fa17.jpg'
 import img3 from '../Spring2020/359653e7-da3d-48ef-961f-9a88af5db890.jpg'
