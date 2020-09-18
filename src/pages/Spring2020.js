@@ -16,7 +16,6 @@ import img9 from '../Spring2020/abd752dc-555f-4304-b19f-53ccbd941f7c.jpg'
 import img10 from '../Spring2020/bb00115d-bf39-44e5-bbe8-605002d29092.jpg'
 import img11 from '../Spring2020/d53faed5-3224-4cae-a963-786f6c7b579f.jpg'
 import img12 from '../Spring2020/e637a836-8871-4c7b-9305-b1f3b110fa17.jpg'
-import img13 from '../Spring2020/ebcc0d6b-84bc-42fa-a47c-72807e74b092.jpg'
 
 export default () => {
  
@@ -27,20 +26,26 @@ export default () => {
        <div className='magine'>
        <h1> Spring Range 2020 </h1>
 
-       <img src={img1} alt="open box"/>
+        <h2> ' BB Sweet Classic Box ' </h2>
        <img src={img7} alt="open box"/>
        <img src={img} alt="open box"/>
        <img src={img11} alt="open box"/>
+
+       <h2> 'BB Pretty Pink Box ' </h2>
        <img src={img4} alt="open box"/>
        <img src={img3} alt="open box"/>
        <img src={img9} alt="open box"/>
+
+       <h2> 'BB classic Kem Box </h2>
        <img src={img6} alt="open box"/>
        <img src={img12} alt="open box"/>
        <img src={img5} alt="open box"/>
+
+       <h2> ' Spoil Yourself with the best '</h2>
        <img src={img8} alt="open box"/>
        <img src={img2} alt="open box"/>
+       <img src={img1} alt="open box"/>
        <img src={img10} alt="open box"/>
-       <img src={img13} alt="open box"/>
         
       </div>
     </Layout>

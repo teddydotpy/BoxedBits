@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import './Indexlayout.css'
-import './splide-default.css'
 import Socials from '../components/socials'
 export default () => {
 
