@@ -10,7 +10,7 @@ export default () => {
   const data = useStaticQuery(graphql`
 query {
   allFile(filter: {
-    extension: {regex: "/(jpg)|(jpeg)|(png)/"}, 
+    extension: {regex: "/(jpg)|(jpeg)|(png)|(JPG)/"}, 
     sourceInstanceName: {eq: "Spring2020"}}) 
   {
     edges {
