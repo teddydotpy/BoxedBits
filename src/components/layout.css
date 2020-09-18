@@ -142,7 +142,7 @@
     0%   {opacity: 0%;
            font-size: 80%;           }
     50%  {opacity: 50%;}
-    100% {opacity: 100%; }
+    100% {}
   }
 
 
@@ -155,7 +155,7 @@
   .Menu-thing h1{
     color: grey;
     animation-name: word-opac;
-    animation-duration: 4s;
+    animation-duration: 1s;
   }
 
   .Menu-thing ul{
