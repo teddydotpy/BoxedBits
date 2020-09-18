@@ -26,7 +26,7 @@ export default () => {
        <div className='magine'>
        <h1> Spring Range 2020 </h1>
 
-        <h2> ' BB Sweet Classic Box ' </h2>
+        <h2>  ' BB Sweet Classic Box ' </h2>
        <img src={img7} alt="open box"/>
        <img src={img} alt="open box"/>
        <img src={img11} alt="open box"/>
