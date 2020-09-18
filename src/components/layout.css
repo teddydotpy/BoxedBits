@@ -127,7 +127,7 @@
     background-color: #ffffff;
     -webkit-transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    font-size: 290%;
+    font-size: 240%;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
     right: 200%;

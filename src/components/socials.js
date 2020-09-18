@@ -17,7 +17,7 @@ const socials = () => (
         </li>
               <li className="nav">
             <a href="tel:0683686451"
-            style={{ color: '#ffdab9', textDecoration: 'none'}}>
+            style={{ color: '#ffdab9git', textDecoration: 'none'}}>
                 <FeatherIcon icon="phone" size="30" />
             </a>
         </li>
