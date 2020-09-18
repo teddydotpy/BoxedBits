@@ -5,19 +5,19 @@ const socials = () => (
    <ol> 
         <li className="nav">
             <a href="https://instagram.com/boxedbits"
-            style={{ color: '#ffdab9', textDecoration: 'none'}}>
+            style={{ color: '#e7acab', textDecoration: 'none'}}>
                 <FeatherIcon icon="instagram" size="30" />
             </a>
         </li>
               <li className="nav">
             <a href="mailto:boxedbitsnthings@gmail.com"
-            style={{ color: '#ffdab9', textDecoration: 'none'}}>
+            style={{ color: '#e7acab', textDecoration: 'none'}}>
                 <FeatherIcon icon="mail" size="30" />
             </a>
         </li>
               <li className="nav">
             <a href="tel:0683686451"
-            style={{ color: '#ffdab9', textDecoration: 'none'}}>
+            style={{ color: '#e7acab', textDecoration: 'none'}}>
                 <FeatherIcon icon="phone" size="30" />
             </a>
         </li>

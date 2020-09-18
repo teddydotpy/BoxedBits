@@ -11,7 +11,6 @@ import img4 from '../Spring2020/9facdeda-c2c6-458d-b5e4-c9030c690f25.jpg'
 import img5 from '../Spring2020/72f8c67c-8fb5-48f3-8afe-683df88ef53f.jpg'
 import img6 from '../Spring2020/77f64622-942a-4266-b07f-0c47bdce0001.jpg'
 import img7 from '../Spring2020/359653e7-da3d-48ef-961f-9a88af5db890.jpg'
-import img8 from '../Spring2020/a2d30edf-c407-44fa-ab06-824831984bd1.jpg'
 import img9 from '../Spring2020/abd752dc-555f-4304-b19f-53ccbd941f7c.jpg'
 import img10 from '../Spring2020/bb00115d-bf39-44e5-bbe8-605002d29092.jpg'
 import img11 from '../Spring2020/d53faed5-3224-4cae-a963-786f6c7b579f.jpg'
@@ -42,7 +41,6 @@ export default () => {
        <img src={img5} alt="open box"/>
 
        <h2> ' Spoil Yourself with the best '</h2>
-       <img src={img8} alt="open box"/>
        <img src={img2} alt="open box"/>
        <img src={img1} alt="open box"/>
        <img src={img10} alt="open box"/>

@@ -5,7 +5,7 @@ import './Indexlayout.css'
 
 import img1 from '../Spring2020/abd752dc-555f-4304-b19f-53ccbd941f7c.jpg'
 import img2 from '../Spring2020/d53faed5-3224-4cae-a963-786f6c7b579f.jpg'
-import img3 from '../Spring2020/72f8c67c-8fb5-48f3-8afe-683df88ef53f.jpg'
+import img3 from '../Spring2020/c331e3cf-1286-423e-8786-35b4aa1f402c.jpg'
 
 export default () => {
 

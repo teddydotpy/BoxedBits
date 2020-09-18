@@ -3,7 +3,7 @@
   body {
     margin: 0;
     background: #ffffff;
-    color: #ffdab9;
+    color: #e7acab;
     font-weight: light;
     font-family: 'Old Standard TT', serif;
     height: 100%;
@@ -20,7 +20,7 @@
   }
 
   ul a {
-    color: #ffdab9;
+    color: #e7acab;
     text-decoration: none;
 
   }
@@ -73,7 +73,7 @@
   }
   
   .burger g {
-    stroke: #ffdab9;
+    stroke: #e7acab;
     -webkit-transition: stroke 0.25s ease-in;
     transition: stroke 0.25s ease-in;
   }
@@ -90,7 +90,7 @@
   }
   
   .close g {
-    stroke: #ffdab9;
+    stroke: #e7acab;
     -webkit-transition: stroke 0.25s ease-out;
     transition: stroke 0.25s ease-out;
   }
@@ -187,7 +187,7 @@
     body {
       padding-left: 20%;
       background: #ffffff;
-      color: #ffdab9;
+      color: #e7acab;
       font-weight: light;
       font-family: 'Old Standard TT', serif;
       height: 100%;
@@ -251,7 +251,7 @@
     .footer {
       width: 79%;  
       background-color: #ffffff;
-      color:#ffdab9; 
+      color:#e7acab; 
       position: fixed;
       left: 22%;
       float: none;
